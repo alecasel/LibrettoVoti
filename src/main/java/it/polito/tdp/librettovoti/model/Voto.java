@@ -7,11 +7,11 @@ import java.time.LocalDate;
 	 * @author Alessandro
 	 *
 	 */
-
 public class Voto {
 	private String nome;
 	private int voto;
 	private LocalDate data;
+	
 	
 	/**
 	 * Costruttore della classe Voto
@@ -19,7 +19,6 @@ public class Voto {
 	 * @param voto Voto esame ottenuto
 	 * @param data Data di superamento
 	 */
-	
 	public Voto(String nome, int voto, LocalDate data) {
 		super();
 		this.nome = nome;
